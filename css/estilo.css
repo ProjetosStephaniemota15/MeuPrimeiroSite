@@ -1,5 +1,20 @@
+.menu{
+    background-color: #A9A9A9(169,169,169);
+    padding: 2%;
+}
+
+.itens_menu{
+    text-align: center;
+}
+
 body{
     background-color: #6495ED;
+}
+
+h1{
+    font-size: 2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .img_topo{
@@ -23,6 +38,7 @@ p{
     font-size: 1.5em;
     text-align: justify;
     text-indent: 35px;
+
 }
 
 .parag_letras > p{
@@ -41,3 +57,18 @@ p{
     padding-top: 9px;
 }
 
+footer{
+    background-color: #4169E1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer P{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.center{
+    text-align: center;
+}
