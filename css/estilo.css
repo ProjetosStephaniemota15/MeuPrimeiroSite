@@ -1,20 +1,37 @@
+body{
+    background-color: #6495ED;
+}
+
 .menu{
     background-color: #A9A9A9(169,169,169);
     padding: 2%;
 }
 
-.itens_menu{
-    text-align: center;
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-body{
-    background-color: #6495ED;
+.itens_menu{
+    padding-top: 1%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.3em;
 }
+
+
 
 h1{
     font-size: 2em;
-    padding-top: 1%;
-    padding-bottom: 1%;
+}
+
+h1,h2{
+    color: #87CEFA;
+    text-align: center;
+}
+
+figure{
+    text-align: center;
 }
 
 .img_topo{
@@ -23,6 +40,8 @@ h1{
 
 .img_corpo{
     width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .container{
@@ -30,15 +49,11 @@ h1{
     margin: auto;
 }
 
-h1{
-    text-align: center;
-}
-
-p{
+p{ 
     font-size: 1.5em;
+    line-height: 1.5;
     text-align: justify;
-    text-indent: 35px;
-
+    text-indent: 25px;
 }
 
 .parag_letras > p{
