@@ -19,6 +19,17 @@ section{
     font-size: 1.3em;
 }
 
+.itens_menu a:link, .itens_menu a:visited{
+     color: #A52A2A;
+     line-height: 1.5;
+     text-decoration: none;
+
+}
+
+.itens_menu a:hover{
+    color: aliceblue;
+}
+
 
 
 h1{
@@ -35,11 +46,11 @@ figure{
 }
 
 .img_topo{
-    width: 100%;
+    width: 80%;
 }
 
 .img_corpo{
-    width: 40%;
+    width: 50%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -70,6 +81,22 @@ p{
 
 .botao p{
     padding-top: 9px;
+}
+
+.botao a:link, .botao a:visited{
+    color: #A52A2A;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.botao a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.botao a:hover{
+    background-color:#4169E1 ;
+    color: black;
 }
 
 footer{
