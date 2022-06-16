@@ -4,45 +4,45 @@ body{
 
 .menu{
     background-color: #A9A9A9(169,169,169);
-    padding: 2%;
+    padding: 1%;
 }
 
-section{
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
 
 .itens_menu{
-    padding-top: 1%;
-    line-height: 1.5;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
-.itens_menu a:link, .itens_menu a:visited{
-     color: #A52A2A;
+.itens_menu a:link, .itens_menu a:visited, .cliqueaqui a:link{
+     color: rgb(114, 1, 1);
      line-height: 1.5;
      text-decoration: none;
 
 }
 
-.itens_menu a:hover{
+.itens_menu a:hover, .cliqueaqui a:hover{
     color: aliceblue;
 }
 
-
-
-h1{
-    font-size: 2em;
+#veja_mais a:link, #veja_mais a:visited{
+    color: black;
+    font-size: 1.2em;
 }
 
-h1,h2{
-    color: #87CEFA;
-    text-align: center;
+#veja_mais a:hover{
+    color: bisque;
 }
 
 figure{
     text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: #87CEFA;
+    padding: 1%;
+    font-weight: bold;
 }
 
 .img_topo{
@@ -51,8 +51,8 @@ figure{
 
 .img_corpo{
     width: 50%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .container{
@@ -60,8 +60,21 @@ figure{
     margin: auto;
 }
 
+.img_direita{
+    float: right;
+    width: 20%;
+    padding-left: 1%;
+}
+
+.img_esquerda{
+    float: left;
+    width: 40%;
+    height: 37%;
+    padding-right: 1%;
+}
+
 p{ 
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.5;
     text-align: justify;
     text-indent: 25px;
@@ -74,13 +87,13 @@ p{
 
 .botao{
     width: 130px;
-    height: 50px;
-    background-color: black;
-    color: bisque;
-}
-
-.botao p{
-    padding-top: 9px;
+    height: 20px;
+    background-color: #0000CD;
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
 }
 
 .botao a:link, .botao a:visited{
@@ -94,15 +107,17 @@ p{
     font-weight: bold;
 }
 
-.botao a:hover{
-    background-color:#4169E1 ;
+.botao:hover{
+    background-color: antiquewhite;
     color: black;
+
 }
 
 footer{
     background-color: #4169E1;
     padding-top: 2%;
     padding-bottom: 2%;
+    margin-top: 5%;
 }
 
 footer P{
