@@ -129,3 +129,26 @@ footer P{
 .center{
     text-align: center;
 }
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid #87CEFA;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    border: 1px solid #87CEFA;
+    text-align: left;
+    padding: 8px;
+    color: #6495ED;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #4169E1;
+}
