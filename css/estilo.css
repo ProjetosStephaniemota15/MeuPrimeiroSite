@@ -14,7 +14,7 @@ body{
 }
 
 .itens_menu a:link, .itens_menu a:visited, .cliqueaqui a:link{
-     color: rgb(114, 1, 1);
+     color:  #0000CD;
      line-height: 1.5;
      text-decoration: none;
 
@@ -43,6 +43,7 @@ h1{
     color: #87CEFA;
     padding: 1%;
     font-weight: bold;
+    font-family: 'Cutive Mono', monospace;
 }
 
 .img_topo{
@@ -78,6 +79,7 @@ p{
     line-height: 1.5;
     text-align: justify;
     text-indent: 25px;
+    font-family: 'Caveat', cursive;
 }
 
 .parag_letras > p{
@@ -145,10 +147,53 @@ th{
     border: 1px solid #87CEFA;
     text-align: left;
     padding: 8px;
-    color: #6495ED;
+    color: #4169E1;
     font-weight: bold;
 }
 
 tr:nth-child(even) {
     background-color: #4169E1;
+}
+
+audio{
+    width: 60%;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel{
+    background-color: #87CEFA;
+}
+
+form{
+    box-sizing: border-box;
+}
+
+input[type=text], select, input[type=tel], input[type=email] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label{
+    width: 50%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+
+.form{
+    background-color: #6495ED;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.col-25{
+    width: 25%;
+    float: left;
+}
+
+.col-75{
+    width: 75%;
+    float: left;
 }

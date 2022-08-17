@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Contato</title>
 </head>
 <body>
     <header>
@@ -16,7 +18,7 @@
                 <ul>                
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#veja_mais">Saiba Mais</a></li>
-                    <li><a href="tabela.html">Comparativo</a></li>
+                    <li><a href="tabela.html">Músicas</a></li>
                     <li><a href="contato.html">Contato</a></li>
                     <li><a href="letras.html">Música Start of Time que toca em Teen Wolf</a></li>
                 </ul>
@@ -25,11 +27,53 @@
     </header>
     <div class="container">
         <section>
+            <h1>Entre Em Contato</h1>
+              <div class="formulário">
+                <div class="form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="nnome">Nome</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" placeholder="Escreva seu nome">
+                            </div>
+                        </div>
+                        <label for="tel">Telefone</label>
+                        <input type="tel" placeholder="99999-9999">
+                        <label for="email">E-mail</label>
+                        <input type="email" placeholder="email@servidor.com">
+
+                        <label for="adm">Administrativo</label>
+                        <input type="radio" id="adm" name="adm" value="1">
+
+                        <label for="rec">Reclamação</label>
+                        <input type="radio" id="rec" name="rec" value="2">
+
+                        <label for="sug">Sugestão</label>
+                        <input type="radio" id="sug" name="sug" value="3">
+
+                        <label for="est">Onde Mora</label>
+                        <select id="#" name="#">
+                            <option value="sp">São Paulo</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="ba">Bahia</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="es">Espírito Santo</option>
+                            <option value="ce">Ceará</option>
+                        </select>
+                        <label for="come">Escreva Um Comentário</label>
+                        <textarea name="message" rows="10" cols="30">
+
+                        </textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+              </div>
 
         </section>
-        <section>
-
-        </section>
+        
     </div>
     <footer>
         <p class="center">Desenvolvido por Stephanie Mota</p>
