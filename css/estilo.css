@@ -141,6 +141,7 @@ td{
     border: 1px solid #87CEFA;
     text-align: left;
     padding: 8px;
+    font-family: 'Caveat', cursive;
 }
 
 th{
@@ -149,6 +150,7 @@ th{
     padding: 8px;
     color: #4169E1;
     font-weight: bold;
+    font-family: 'Caveat', cursive;
 }
 
 tr:nth-child(even) {
@@ -173,6 +175,7 @@ input[type=text], select, input[type=tel], input[type=email] {
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-family: 'Caveat', cursive;
 }
 
 label{
@@ -191,9 +194,27 @@ label{
 .col-25{
     width: 25%;
     float: left;
+    margin-top: 6px;
 }
 
 .col-75{
     width: 75%;
     float: left;
+    margin-top: 6px;
 }
+
+input[type=submit] {
+    background-color: #4169E1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
