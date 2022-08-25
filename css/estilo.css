@@ -43,7 +43,7 @@ h1{
     color: #87CEFA;
     padding: 1%;
     font-weight: bold;
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .img_topo{
@@ -79,7 +79,7 @@ p{
     line-height: 1.5;
     text-align: justify;
     text-indent: 25px;
-    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif', serif;;
 }
 
 .parag_letras > p{
@@ -170,11 +170,12 @@ form{
     box-sizing: border-box;
 }
 
-input[type=text], select, input[type=tel], input[type=email] {
+input[type=text], select, input[type=tel], input[type=email], textarea{
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 25px;
+    width: 75%;
     font-family: 'Caveat', cursive;
 }
 
@@ -186,9 +187,13 @@ label{
 }
 
 .form{
-    background-color: #6495ED;
+    background-color: #4169E1;
     border-radius: 5px;
     padding: 20px;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .col-25{
@@ -204,7 +209,7 @@ label{
 }
 
 input[type=submit] {
-    background-color: #4169E1;
+    background-color: #6495ED;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -213,8 +218,20 @@ input[type=submit] {
     float: right;
   }
 
+  input[type=submit]:hover {
+      background-color: black;
+      font-weight: bolder;
+  }
+
   .row:after {
     content: "";
     display: table;
     clear: both;
+  }
+
+  @media screen and (max-width: 400px){
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
   }
