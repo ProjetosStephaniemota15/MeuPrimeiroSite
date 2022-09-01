@@ -16,16 +16,78 @@
             background-color: aqua;
             color: black;
         }
+
+        .fixo{
+            position: fixed;
+            width: 100%;
+            top: 0%;
+        }
+
+        .main{
+            width: 100%;
+            height: 600px;
+            background-color: darkcyan;
+            position: relative;
+        }
+
+       .container{
+           margin-top: 100px;
+       }
+
+       .topoesqu{
+           width: 20%;
+           background-color: crimson;
+           top: 16px;
+           left: 16px;
+           position: absolute;
+       }
+
+       .topodir{
+           width: 20%;
+           background-color: dodgerblue;
+           top: 16px;
+           right: 16px;
+           position: absolute;
+       }
+
+       .centro{
+           width: 20%;
+           background-color: gold;
+           top: 400px;
+           left: 50px;
+       }
+
+       .baixoesqu{
+           width: 20%;
+           background-color: limegreen;
+           bottom: 16px;
+           left: 16px;
+           position: absolute;
+       }
+
+       .baixodir{
+           width: 20%;
+           background-color: darkred;
+           bottom: 16px;
+           right: 16px;
+           position: absolute;
+       }
     </style>
 
 </head>
 <body>
-    <h1>Aprendendo css interno</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est dignissimos, nesciunt eius tempora porro repudiandae odit possimus consequuntur maxime, modi fugit tempore autem. Quisquam voluptatibus ipsum a! Ullam, asperiores!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ea excepturi provident? Ut, rerum sit amet, error natus quo deleniti doloremque soluta fugiat veritatis in, eveniet hic suscipit consectetur quaerat.</p>
-    <ul style="background-color: gold;font-weight: bold;">
-        <li style="color: goldenrod;">Eu estou com muita fome</li>
-        <li style="color: goldenrod;">Eu quero ir embora</li>
-    </ul>
+    <header>
+        <h1 class="fixo">Aprendendo CSS interno</h1>
+    </header>
+    <div class="container">
+        <h1>Testando posições</h1>
+        <div class="main">
+            <div class="topoesqu">Topo Esquerda</div>
+            <div class="topodir">Topo Direita</div>
+            <div class="centro">Centro</div>
+            <div class="baixoesqu">Baixo Esquerda</div>
+            <div class="baixodir">Baixo Direita</div>
+        </div>
+    </div>
 </body>
 </html>
