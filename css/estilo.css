@@ -2,9 +2,18 @@ body{
     background-color: #6495ED;
 }
 
-.menu{
-    background-color: #A9A9A9(169,169,169);
-    padding: 1%;
+header{
+    background-color: #4169E1;
+    padding: 2%;
+    flex: ;
+    flex-direction: row;
+}
+
+.fixo{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
 
@@ -46,6 +55,10 @@ h1{
     font-family: 'Abril Fatface', cursive;
 }
 
+.logo{
+    text-align: center;
+}
+
 .img_topo{
     width: 80%;
 }
@@ -54,6 +67,14 @@ h1{
     width: 50%;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+.img_logo{
+    width: 13%;
+}
+
+.banner{
+    margin-top: 20%;
 }
 
 .container{
@@ -233,5 +254,12 @@ input[type=submit] {
     .col-25, .col-75, input[type=submit] {
         width: 100%;
         margin-top: 0;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+      
+    header{
+        
     }
   }
