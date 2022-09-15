@@ -255,11 +255,43 @@ input[type=submit] {
         width: 100%;
         margin-top: 0;
     }
+
+    .logo{
+        text-align: center;
+    }
+
+    .banner{
+        margin-top: 20%;
+    }
   }
 
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 601px) {
       
     header{
-        
+        flex-direction: row;
+    }
+
+    .itens_menu{
+        position: absolute;
+        right: 2%;
+        width: 70%;
+    }
+
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 1%;
+    }
+
+    .logo{
+        text-align: left;
+        width: 30%;
+    }
+
+    .banner{
+        margin-top: 5%;
+    }
+
+    .img_logo{
+        width: 30%;
     }
   }
